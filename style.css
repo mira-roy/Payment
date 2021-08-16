@@ -1,0 +1,171 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.mainbody{
+    background-image: url(donate-background.jpg);
+   background-size:100% 100%  ;
+ width:100%;
+   height:100vh;
+   margin:0;
+   padding:0;
+   position: fixed;
+   
+}
+#checkb{
+    display: none;
+}
+.checkbutton{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 50px;
+    cursor: pointer;
+    margin-right: 10px;
+    display: none;
+}
+@media (max-width:952px){
+   label .pay{
+       font-size: 30px;
+       padding-left: 10px;
+   }
+
+   ul li a{ 
+       font-size: 20px;
+
+   }
+}
+@media (max-width:858px){
+    .checkbutton{
+        display: block;
+   padding: 0px;
+    }
+    .main{
+        position:fixed;
+        width: 110px;
+        height: 150px;
+        background:rgb(56, 53, 53);
+        top:30px;
+        right:-100%;
+        text-align: center;
+        transition: all 0.2s;
+        z-index:20;
+        border-radius: 10%;
+    }
+    nav ul li{
+        display: block;
+margin: 0px;
+    }
+    nav ul li a{
+        font-size: 15px;
+        padding: 0px;
+    }
+    a:hover{
+        background: chocolate;
+        cursor: pointer;
+    }
+  
+
+#checkb:checked ~ .main{
+    right:0;
+
+}
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color:blanchedalmond;
+    font-weight: bold;
+    font-family: cursive;
+    
+}
+a:hover{
+    background-color: rgba(0, 0, 0, 0.151);
+    cursor:pointer;
+}
+.main{
+    float:right;
+    margin-right: 50px;
+}
+
+ul li{
+    display:inline-block;
+    padding:0px 20px;
+    line-height: 50px;
+   text-align: center;
+   height:50px;
+
+}
+ .pay2{
+    padding: 10px;
+    margin:0px;
+    width:70px;
+    height: 65px;
+   border-radius: 50%;
+}
+.label1{
+    margin-top: 50px;
+    padding-left: 20px;
+    font-family: cursive;
+    font-size: 20px;
+    color: blanchedalmond;
+}
+nav{
+    height:50px;
+    width:100%;
+    position: fixed;
+    top:0px;
+    z-index: 20;
+}
+.container{
+    text-align: center;
+    color:blanchedalmond;
+    margin-top:10%;
+    margin-left:60%;
+    width:30%;
+    height:50%;
+    
+}
+.para {
+    margin:10px 0px;
+    padding:20px;
+    font-size: 20px;
+    font-family: cursive;
+}
+#rzp-button1:hover{
+    font-size: 20px;
+    border-radius: 5%;
+    border-style: none;
+    background-color: burlywood;
+    cursor: pointer;
+}
+#rzp-button1 {
+    border-style: hidden;
+    margin:5px;
+   padding: 5px;
+   border-radius: 3%;
+   width:150px;
+   
+}
+#rzp-button1 a{
+    color: black;
+}
+.para1 p{
+    margin-top: 10px;
+    font-family: cursive;
+}
+.fot{
+    margin-bottom: 40px;
+}
+.footer1{
+    text-align: right;
+    padding-top: 30px;
+}
+.footer2 h3{
+    padding-right: 30px;
+}
+.social-links a{
+    padding: 15px;
+    color: black;
+}
